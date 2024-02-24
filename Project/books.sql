@@ -14,4 +14,3 @@ desc books;
 INSERT INTO books(id,title,author,price,qty) VALUES (1,'jdbc','john',120,5);
 DESC books;
 select * from books;
-ALTER TABLE books MODIFY COLUMN id INT AUTO_INCREMENT PRIMARY KEY;
